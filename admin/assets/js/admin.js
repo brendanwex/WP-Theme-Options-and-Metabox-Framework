@@ -128,7 +128,7 @@ jQuery(document).ready(function($){
         e.preventDefault();
         return_class = jQuery(this).data('return');
         return_field = jQuery(this).prev('input');
-        return_preview = jQuery('.'+return_class+'_img-preview');
+        return_preview = jQuery('.'+return_class+'-preview');
         bg_options = jQuery(this).parent().find(".theme-options-bg-layout");
 
 
