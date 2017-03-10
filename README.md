@@ -9,6 +9,8 @@ Just drop the admin folder into your custom WP theme and include the init.php fi
 
 ## Theme Option and Meta Box Fields
 
+[Theme Options Example Set Up - fields.php](https://gist.github.com/brendanwex/d1d45486c2d7c072397b99b8a5341112)
+
 ###text
 **Supports:**
 id, name, class, placeholder,label,desc, css
