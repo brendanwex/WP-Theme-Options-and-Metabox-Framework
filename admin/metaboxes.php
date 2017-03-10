@@ -13,7 +13,7 @@ $theme_meta[] = array(
 	'post_type' => array('page'),
 	'id' => 'overview_page_options',
 	'priority' => 'high',
-	'location' => 'side',
+	'location' => 'normal',
 	'metabox_text' => 'Description of what this meta box is for.',
 
 	'fields' => array(
@@ -45,7 +45,7 @@ $theme_meta[] = array(
 			'name' => 'select_test',
 			'id' => 'select_test',
 			'label' => 'Select Example',
-			'desc' => 'Exampel of select.',
+			'desc' => 'Example of select.',
 			'options' => array(
 
 				'red' => 'Red',

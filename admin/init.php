@@ -13,7 +13,7 @@ define('ADMIN_OPTIONS_TITLE_LABEL', 'Customize Your Theme');
 define('ADMIN_OPTIONS_PAGE_SLUG', 'theme-options');
 //Option name that is saved in database (do not change this in a production site or you will lose settings)
 define('ADMIN_OPTIONS_OPTION_NAME', 'theme_options');
-//You can disbale teh theme options part and just use metaboxes.
+//You can disable the theme options part and just use metaboxes.
 define('ADMIN_OPTIONS_DISABLE', false);
 
 include(__DIR__ . "/admin.class.php");
