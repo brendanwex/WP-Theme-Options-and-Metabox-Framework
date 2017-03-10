@@ -1,6 +1,11 @@
 # WP-Theme-Options-and-Metabox-Framework
 Just drop the admin folder into your custom WP theme and include the init.php file from your function.php, and you have access to a full range of admin option fields and metaboxes.
 
+![Alt screenshot](https://raw.githubusercontent.com/brendanwex/WP-Theme-Options-and-Metabox-Framework/master/screenshots/theme-admin-options-overview.PNG)
+
+![Alt screenshot](https://raw.githubusercontent.com/brendanwex/WP-Theme-Options-and-Metabox-Framework/master/screenshots/theme-admin-options-2.PNG)
+
+![Alt screenshot](https://raw.githubusercontent.com/brendanwex/WP-Theme-Options-and-Metabox-Framework/master/screenshots/theme-admin-options-3.PNG)
 
 ## Theme Option and Meta Box Fields
 
