@@ -2,7 +2,6 @@
 
 /**
  * @User Brendan
- * @Company Graphedia.com
  * @File meta.class.php
  * @Date 12-Dec-16  12:10 PM
  * @Version
@@ -19,10 +18,9 @@ class adminMeta extends adminOptions
 	}
 
 
-
-
-
-
+	/**
+	 * Loops though metaboxes.php and loads metaboxes using wp action add_meta_box
+	 */
 	function loadMetaBoxes(){
 
 
@@ -36,6 +34,9 @@ class adminMeta extends adminOptions
 	}
 
 
+	/**
+	 * Loops though metaboxes.php and generates the fields
+	 */
 	function metaBoxHTML($post, $callback_args){
 		global $theme_meta, $post;
 		$meta_args = array_map( 'esc_html', $callback_args['args'] );
@@ -109,7 +110,9 @@ class adminMeta extends adminOptions
 
 
 
-
+	/**
+	 * Save metaboxe
+	 */
 	function metaBoxSave($post_id){
 
 		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
